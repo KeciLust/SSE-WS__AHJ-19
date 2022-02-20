@@ -5,4 +5,4 @@
 
 SSE-WS__AHJ-19
 
-https://kecilust.github.io/ENV__AHJ-19/
+https://kecilust.github.io/SSE-WS__AHJ-19/

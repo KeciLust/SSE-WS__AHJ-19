@@ -19,7 +19,7 @@
     "show:dist": "live-server dist"
   },
   "author": "Keci",
-  "license": "",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
