@@ -1,4 +1,5 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/te5dy12jerdhg6pu?svg=true)](https://ci.appveyor.com/project/KeciLust/env-ahj-19)
+[![Build status](https://ci.appveyor.com/api/projects/status/gxa525uvqjqwfk04?svg=true)](https://ci.appveyor.com/project/KeciLust/sse-ws-ahj-19)
+
 
 Домашка №8
 
