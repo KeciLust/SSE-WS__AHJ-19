@@ -16,16 +16,100 @@ body {
     font-size: 20px;
 }
 .modulInput {
-border-radius: 10px;
-display: block;
-margin-right: auto;
-margin-left: auto;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.modulInvalidNickname {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+.modulNotNickname {
+   display: none;
+   text-align: center;
+   margin-top: 10px;
 }
 .modulButton {
-border-radius: 10px;
-display: block;
-margin-top: 20px;
-margin-right: auto;
-margin-left: auto;
-margin-bottom: 20px;
+    border-radius: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.container {
+    display: none;
+    margin: 20px;
+    width: 100%;
+}
+.containerList {
+    background-color: darkseagreen;
+    display: block;
+    border-radius: 10px;
+    width: 25%;
+    list-style-type: disc;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.containerChat{
+    background-color: antiquewhite;
+    width: 75%;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+}
+.inputChat {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 60%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.buttonChat {
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    width: 15%;
+    right: 20px;
+}
+.chatList {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.nicknameChat {
+    font-size: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+.time {
+    text-align: center;
+    margin-right: 20px;
+}
+.chatMessage {     
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: start;
+   margin-top: 20px;
+    
+}
+.messageText {
+    width: 100%;
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: end;
+    margin-right: 20px;
+}
+.youChatMessage { 
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: end;
+   margin-top: 20px;
+   
 }
