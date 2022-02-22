@@ -36,9 +36,8 @@ export default function chat(name) {
     };
   });
   ws.addEventListener('close', (evt) => {
-    console.log(321);
-    // const api = new Api();
-    // api.remove(name);
+    const api = new Api();
+    api.remove(name);
     console.log(evt);
   });
   ws.addEventListener('error', () => {
