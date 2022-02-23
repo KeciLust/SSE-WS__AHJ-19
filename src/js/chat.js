@@ -18,11 +18,10 @@ export default function chat(name) {
     };
     if (ws.readyState === WebSocket.OPEN) {
       ws.send(JSON.stringify(message));
-    } 
+    }
     input.value = '';
   });
   ws.addEventListener('message', (evt) => {
-
     const read = new FileReader();
     read.readAsText(evt.data);
     read.onload = () => {
@@ -37,10 +36,12 @@ export default function chat(name) {
   });
   ws.addEventListener('close', (evt) => {
     if (ws.readyState === WebSocket.CLOSED) {
+      console.log(evt);
       ws.close();
       const api = new Api('http://localhost:7070/contacts');
-    api.remove(name);
-  })
+      api.remove(name);
+    }
+  });
   ws.addEventListener('error', () => {
     console.log('error');
   });
